@@ -162,7 +162,7 @@ class _homework9State extends State<homework9> {
             Expanded(
               child: TextField(
                 controller: _controller,
-                enabled: (_feedback !=null && _feedback =='CORRECT!')?false:true,
+                enabled: (_feedback ==null && _feedback =='CORRECT!')?false:true,
                 keyboardType: TextInputType.number,
                 style: const TextStyle(
                   color: Colors.yellow,
